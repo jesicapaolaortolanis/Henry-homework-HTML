@@ -1,0 +1,107 @@
+.fondo{
+    background-color: rgb(254, 254, 201);
+}
+
+#encabezado, span{
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(246, 246, 119);
+}
+
+span{
+    width: 30em;
+}
+
+span:hover{
+    background-color: rgb(196, 196, 56);
+    color: aliceblue;
+}
+
+
+h1 {
+    color: rgb(53, 144, 110);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2{
+    color: rgb(51, 165, 123);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+p, li{
+    font-size: 20px;
+    margin: 0em 5em 1em 3em;
+    
+}
+
+
+#sobre-mi{
+    width: 70em;
+    margin: auto;
+}
+
+#lo-que-disfruto-hacer{
+    width: 30em;
+    margin: auto;
+    
+}
+
+
+#mis-fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    width: 20em;
+    border-radius: 10%;
+    padding: 4em;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 20em;
+    height: 2em; 
+    border-radius: 10%;
+    border-color: rgb(179, 228, 66); 
+    background-color:  rgb(215, 236, 166); 
+}
+
+#boton-enviar-formulario{
+    width: 7em;
+    height: 3em;
+    margin: 1em 3em;
+    background-color: rgb(154, 181, 15);
+    border-radius: 15%;
+    border-color: rgb(189, 233, 47);
+    font-size: 1em;
+}
+
+#boton-enviar-formulario:hover{
+    background-color: rgb(81, 209, 96);
+    color: aliceblue;
+}
+
+footer{
+    margin: 3em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
+}
+
+
